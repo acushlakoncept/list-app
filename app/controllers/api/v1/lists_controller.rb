@@ -33,6 +33,7 @@ module Api::V1
         render json: @list.errors, status: :unprocessable_entity
       end
     end
+    
 
     # DELETE /lists/1
     def destroy
