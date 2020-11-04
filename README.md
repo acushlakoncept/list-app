@@ -55,6 +55,12 @@ Start server with:
     rake start
 ```
 
-* Deployment instructions
+### Deployment instructions
 
-* ...
+```
+    heroku apps:create
+    heroku rename app-new-name
+    heroku buildpacks:add heroku/nodejs --index 1
+    heroku buildpacks:add heroku/ruby --index 2
+    git push heroku main
+```
