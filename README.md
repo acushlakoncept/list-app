@@ -71,4 +71,34 @@ Test the production build locally with our Rake task
 ```
 Your app should be running at `http://127.0.0.1:5000/`
 
+Make sure you have committed all changes
+```
+    git add .
+    git commit -m "ready for first push to heroku"
+    git push heroku master
+    heroku run rake db:migrate
+    heroku run rake db:seed
+```
+Fire up your app by running `heroku open` Yay!!! your app has been deployed successfully.
+
+# Authors
+
+👤 **Uduak Essien**
+
+- Github: [@acushlakoncept](https://github.com/acushlakoncept/)
+- Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
+- Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- [Bruno Boehm's Article](https://medium.com/@bruno_boehm/reactjs-ruby-on-rails-api-heroku-app-2645c93f0814) on ReactJS + Ruby on Rails API + Heroku App
 
