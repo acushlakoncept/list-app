@@ -1,0 +1,31 @@
+{
+  "name": "list-app",
+  "version": "1.0.0",
+  "description": "list rails app with react",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acushlakoncept/list-app.git"
+  },
+  "keywords": [
+    "rails",
+    "api",
+    "ruby",
+    "on",
+    "rails",
+    "api",
+    "react"
+  ],
+  "author": "Uduak Essien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acushlakoncept/list-app/issues"
+  },
+  "homepage": "https://github.com/acushlakoncept/list-app#readme"
+}
