@@ -8,6 +8,9 @@ In this project I built a simple List App using ReactJS and Ruby on Rails API
 - Ruby on Rails v6.0.3.2
 - RSpec
 
+## Live Demo
+[Live Demo](https://list-rails-react-app.herokuapp.com/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
