@@ -64,3 +64,11 @@ Start server with:
     heroku buildpacks:add heroku/ruby --index 2
     git push heroku main
 ```
+Test the production build locally with our Rake task
+
+```
+    rake start:production
+```
+Your app should be running at `http://127.0.0.1:5000/`
+
+
