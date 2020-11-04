@@ -1,23 +1,59 @@
-# README
+# List App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project I built a simple List App using ReactJS and Ruby on Rails API
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby v2.6.5
+- Ruby on Rails v6.0.3.2
+- RSpec
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+Ruby: 2.6.5
+Rails: 6.0.3.2
+Postgres: >=9.5
 
-* How to run the test suite
+### Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+~~~bash
+$ git clone https://github.com/acushlakoncept/list-app.git
+$ cd list-app
+~~~
+
+Install gems with:
+
+```
+bundle install
+```
+Navigate to client app
+
+```
+cd client
+yarn or npm install
+```
+
+Setup database with:
+
+> make sure you have postgress sql installed and running on your system
+
+```
+   rails db:create
+   rails db:migrate
+   rails db:seed   # install sample list data
+```
+
+### Usage
+
+Start server with:
+
+```
+    rake start
+```
 
 * Deployment instructions
 
